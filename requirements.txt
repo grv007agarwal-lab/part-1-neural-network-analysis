@@ -5,6 +5,7 @@ used for:
 1) Loading datasets
 2) Reading CSV files
 3) Data manipulation and analysis
+________________________________________________________
 
 
 "from sklearn.model_selection import train_test_split" 
@@ -12,12 +13,14 @@ used for:
 used to split the dataset into:
 1) Training data
 2) Testing data
+________________________________________________________
 
 
 "from sklearn.preprocessing import LabelEncoder, StandardScaler" 
 
 LabelEncoder : Converts categorical text values into numeric form.
 StandardScaler : Scales numerical features to a standard range.
+________________________________________________________
 
 
 "from sklearn.metrics import accuracy_score"
@@ -25,6 +28,7 @@ StandardScaler : Scales numerical features to a standard range.
 Calculates model accuracy.
 Accuracy formula:
 Accuracy = Total Predictions\Correct Predictions
+________________________________________________________
 	​
 
 
@@ -32,9 +36,11 @@ Accuracy = Total Predictions\Correct Predictions
 
 Used to create a neural network model layer-by-layer.
 
+________________________________________________________
 
 
 "from tensorflow.keras.layers import Dense, Input"
 
 Dense : Creates fully connected neural network layers.
 Input : Defines the input shape of the neural network.
+________________________________________________________
