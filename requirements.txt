@@ -1,0 +1,40 @@
+
+"import pandas as pd" 
+
+used for:
+1) Loading datasets
+2) Reading CSV files
+3) Data manipulation and analysis
+
+
+"from sklearn.model_selection import train_test_split" 
+
+used to split the dataset into:
+1) Training data
+2) Testing data
+
+
+"from sklearn.preprocessing import LabelEncoder, StandardScaler" 
+
+LabelEncoder : Converts categorical text values into numeric form.
+StandardScaler : Scales numerical features to a standard range.
+
+
+"from sklearn.metrics import accuracy_score"
+
+Calculates model accuracy.
+Accuracy formula:
+Accuracy = Total Predictions\Correct Predictions
+	​
+
+
+"from tensorflow.keras.models import Sequential"
+
+Used to create a neural network model layer-by-layer.
+
+
+
+"from tensorflow.keras.layers import Dense, Input"
+
+Dense : Creates fully connected neural network layers.
+Input : Defines the input shape of the neural network.
